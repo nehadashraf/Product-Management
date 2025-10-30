@@ -144,7 +144,7 @@ GET /api/products?includeDeleted=true
 
 ---
 
-### ⚙️ Concurrency
+### Concurrency
 
 Each update operation updates the `UpdatedAtUtc` field.
 This helps track the last modification and can be extended for concurrency tokens if needed.
